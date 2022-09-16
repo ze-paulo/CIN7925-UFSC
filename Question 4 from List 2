@@ -1,0 +1,17 @@
+from math import sqrt
+
+va1 = float(input("tell me a number: "))
+va2 = float(input("tell me another number: "))
+va3 = float(input("tell me another number: "))
+va4 = float(input("tell me another number: "))
+
+result1 = va1+va3 
+result2 = va2+va4
+result3 = result1*result2
+square_root = math.sqrt(result3)
+
+print (f"results from operations: ")
+print (f'{result1}')
+print (f'{result2}')
+print (f'{result3}')
+print (f'square root of {result3} is equal to {square_root}')
